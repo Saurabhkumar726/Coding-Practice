@@ -18,3 +18,6 @@ class Solution:
                 i += 1
         
         return list(res)
+
+
+        
