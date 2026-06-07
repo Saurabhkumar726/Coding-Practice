@@ -1,0 +1,5 @@
+class Solution:
+    def profession(self, level, pos):
+        flips = bin(pos - 1).count('1')
+        return "Engineer" if flips % 2 == 0 else "Doctor"
+        
